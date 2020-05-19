@@ -55,39 +55,39 @@ resource "aws_api_gateway_integration_response" "ServerSectionGetIntegrationResp
   response_templates = {
     "application/json" = <<EOF
 {
-  "blockTitle":"Server",
-  "title":"Internet à toute vitesse",
+  "blockTitle":"Hello",
+  "title":"World",
   "blocs":[
     {
-      "title":"La fibre la plus rapide",
-      "description":"Regardez un film ou une série, téléchargez de la musique, transférez vos fichiers et vos photos, jouez en réseau. Tous vos usages à toute vitesse, en même temps et sans interruption.",
-      "imageUri":"${var.storage}/active/hardware/v8-server-1.png",
+      "title":"Hello",
+      "description":"ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into",
+      "imageUri":"${var.storage}/t-1.png",
       "specifications":[
         {
           "unit":"Gbit/s",
-          "description":"en débit descendant",
+          "description":"when an unknown printer",
           "value":"5",
           "limite":"Jusqu'a"
         },
         {
           "unit":"Gbit/s",
-          "description":"en débit montant",
+          "description":"when an unknown printer",
           "value":"1",
           "limite":"Jusqu'a"
         },
         {
           "unit":"fois",
-          "description":"plus rapide que l'adsl",
+          "description":"when an unknown printer",
           "value":"200",
           "limite":"Environ"
         }
       ]
     },
     {
-      "title":"Connecté en Wi-Fi partout chez vous",
-      "description":"Son WiFi Intelligent permet de gérer automatiquement votre réseau pour optimiser en temps réel les connexions sans fil de tous vos appareils (tablettes, ordinateurs, smartphones…). Utile en heure de pointes quand toute la famille connecte ses appareils en simultanée !",
-      "hightlight":"Utile en heures de pointes quand toute la famille connecte ses appareils en simultanée !",
-      "imageUri":"${var.storage}/active/hardware/v8-server-1.png"
+      "title":"when an unknown printer",
+      "description":"ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into",
+      "hightlight":"ever since the 1500s, when an unknown printer took",
+      "imageUri":"${var.storage}/e-1.png"
     }
   ]
 }
